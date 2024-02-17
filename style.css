@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background-image: url(pexels-kindel-media-7476134.jpg);
+    background-size: 1800px 1000px;
+}
+.calculator{
+    border: 1px solid #717377;
+    padding: 20px;
+    border-radius: 16px;
+    background: white;
+    box-shadow: 0px 3px 15px rgba(255, 255, 255,0.75);
+}
+input{
+    width:320px;
+    border:1px solid white;
+    border-radius: 10px;
+    box-shadow: 0px 3px 15px rgba(0, 0, 106,0.75);
+    padding:24px;
+    margin: 10px;
+    background: transparent;
+    box-shadow: 0px 3px 15px rgbs(84,84,84,0.1);
+    font-size: 40px;
+    text-align: right;
+    color:black;
+    cursor: pointer;
+}
+input::placeholder{
+    color:black;
+}
+button{
+    border: 1px solid white;
+    width:60px;
+    height:60px;
+    margin: 10px;
+    border-radius: 50%;
+    background: transparent;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 15px rgba(0, 0, 106,0.75);
+    color: black;
+    font-size: 25px;
+    cursor:pointer
+}
+.eqBtn{
+    background-color: pink;
+}
